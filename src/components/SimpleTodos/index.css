@@ -1,0 +1,47 @@
+/* Write your CSS here */
+
+.todos-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .todos-container {
+    min-width: 50%;
+  }
+}
+
+.todo-container {
+  background-color: #ffffff;
+  min-width: 550px;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .todo-container {
+    min-width: 50%;
+  }
+}
+
+.todo-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  padding: 40px;
+}
+
+.todos-list-container {
+  list-style-type: none;
+}
